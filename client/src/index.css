@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', sans-serif;
+  --font-handwritten: 'Caveat', cursive;
+  --font-cute: 'Playpen Sans', cursive;
+
+  --color-heart-pink: #ff85a2;
+  --color-pastel-pink: #fff0f3;
+  --color-pastel-lavender: #f3e8ff;
+  --color-pastel-cream: #fffdf9;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-pastel-cream);
+    color: #3f3f46; /* zinc-700 */
+    font-family: var(--font-sans);
+  }
+
+  /* Custom styled scrollbars */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-pastel-cream);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #fbcfe8; /* pink-200 */
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f472b6; /* pink-400 */
+  }
+}
+
+/* Glassmorphism card utility */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(251, 207, 232, 0.3);
+}
+
+/* Polaroid taped card styling */
+.polaroid-card {
+  background: #ffffff;
+  padding: 1rem 1rem 2rem 1rem;
+  box-shadow: 0 10px 25px rgba(244, 114, 182, 0.15);
+  border: 1px solid #fce7f3;
+  transform: rotate(var(--rotation, 0deg));
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.polaroid-card:hover {
+  transform: rotate(0deg) scale(1.03);
+  box-shadow: 0 15px 35px rgba(244, 114, 182, 0.25);
+  z-index: 10;
+}
+
+.tape-effect {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+  width: 90px;
+  height: 25px;
+  background-color: rgba(253, 244, 215, 0.6);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-left: 1px dashed rgba(0,0,0,0.1);
+  border-right: 1px dashed rgba(0,0,0,0.1);
+}
+
+/* Star twinkling and glowing */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.twinkle-star {
+  animation: twinkle var(--duration, 3s) infinite ease-in-out;
+}
+
+/* Custom heartbeat pulse */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.heart-pulse {
+  animation: heartbeat 1.5s infinite ease-in-out;
+}
+
+/* Gift shake animation */
+@keyframes gift-shake {
+  0%, 100% { transform: rotate(0); }
+  15% { transform: rotate(-8deg) scale(1.05); }
+  30% { transform: rotate(6deg) scale(1.05); }
+  45% { transform: rotate(-5deg) scale(1.05); }
+  60% { transform: rotate(4deg) scale(1.05); }
+  75% { transform: rotate(-2deg) scale(1.05); }
+}
+
+.shake-hover:hover {
+  animation: gift-shake 0.8s ease-in-out infinite;
+}
+
+/* Floating elements background */
+@keyframes floatUp {
+  0% { transform: translateY(110vh) rotate(0deg); opacity: 0; }
+  10% { opacity: 0.6; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
+}
+
+.floating-particle {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+  animation: floatUp var(--speed, 15s) linear infinite;
+  animation-delay: var(--delay, 0s);
+  left: var(--x, 50%);
+  font-size: var(--size, 20px);
+}

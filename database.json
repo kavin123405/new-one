@@ -1,0 +1,95 @@
+{
+  "partnerName": "Sweetheart",
+  "welcome": {
+    "title": "Of all the people I could have met, I'm really happy I met you.",
+    "text": "I made a tiny corner of the internet just for you. Take your time and explore all the little secrets hidden here. 💗",
+    "image": ""
+  },
+  "memories": [
+    {
+      "id": "1",
+      "date": "2025-01-01",
+      "title": "The Day We Met",
+      "description": "The moment that changed everything. I remember the exact look on your face and how nervous I was to talk to you. It was the best day of my year.",
+      "image": "/uploads/memory_1.jpg"
+    },
+    {
+      "id": "2",
+      "date": "2025-02-14",
+      "title": "First Photo Together",
+      "description": "We were both so shy, but look at us now! It's still one of my absolute favorite pictures of us.",
+      "image": "/uploads/memory_2.jpg"
+    },
+    {
+      "id": "3",
+      "date": "2025-04-01",
+      "title": "Funniest Moment",
+      "description": "I still laugh out loud when I think of this day. You have the most contagious laugh in the world.",
+      "image": "/uploads/memory_3.jpg"
+    },
+    {
+      "id": "4",
+      "date": "2025-06-20",
+      "title": "Favorite Memory",
+      "description": "Just you, me, and a perfect quiet afternoon. No distractions, just talking and feeling completely at peace with each other.",
+      "image": "/uploads/memory_4.jpg"
+    },
+    {
+      "id": "5",
+      "date": "2026-07-27",
+      "title": "Today",
+      "description": "Every single day with you is a brand new adventure. I can't wait for all the beautiful memories we have yet to create.",
+      "image": "/uploads/memory_5.jpg"
+    }
+  ],
+  "letters": {
+    "happy": "I love seeing that beautiful smile on your face! Never forget how much joy you bring into the world, and especially into my life. Keep shining and sharing your positive energy! 💗",
+    "difficult": "I wish I could be there to wrap you in a warm hug right now. Take a deep breath. You are incredibly strong, resilient, and you've got this. I believe in you, always. 🌧️💗",
+    "motivation": "Remember how far you've come and all the things you've achieved! You are smart, capable, and determined. Go show the world what you're made of today! 🌟",
+    "laugh": "Here is a quick joke for you: Why don't scientists trust atoms? Because they make up everything! 😜 Also, remember that time when we couldn't stop giggling over absolutely nothing? You are my favorite person to laugh with! 😂",
+    "miss": "I miss talking to you too! Send me a text message right now with a random cute animal emoji, and let's catch up. I'm always here to listen to anything you want to share. 💗",
+    "sleep": "Close your eyes and think of the calmest, happiest place. Imagine us walking under a starry sky. I'm sending you all the cozy, peaceful vibes. Dream of all the adventures we have ahead. Sleep tight! 🌙"
+  },
+  "mysteryGift": {
+    "title": "A Special Message",
+    "message": "You are the best thing that has ever happened to me. Here is a little collection of love and happy thoughts that I carry with me every day. Thank you for being you!",
+    "image": "/valentine-couple.jpg"
+  },
+  "appreciations": [
+    "Your endless kindness and how you make everyone feel welcome 💗",
+    "The way you make me laugh even when I'm having a stressful day 😂",
+    "Your passion and determination to achieve your goals 🌟",
+    "The late-night conversations we have about everything and nothing 😭",
+    "All the small, quiet memories we've made together 📸"
+  ],
+  "playlist": [
+    {
+      "id": "1",
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "url": "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+    },
+    {
+      "id": "2",
+      "title": "I Think They Call This Love",
+      "artist": "Elliot James Reay",
+      "url": "https://www.youtube.com/watch?v=CnEqrgMlWLQ"
+    },
+    {
+      "id": "3",
+      "title": "I Wanna Be Yours",
+      "artist": "Arctic Monkeys",
+      "url": "https://www.youtube.com/watch?v=fukGbiPuBjU"
+    }
+  ],
+  "stars": [
+    "One thing I admire about you... Your boundless empathy and how deeply you care for everyone around you.",
+    "A memory that still makes me smile... The time we got caught in the rain and ended up laughing instead of running.",
+    "Something I hope you achieve... All your big dreams in your career, because you deserve it more than anyone.",
+    "Something I never want you to forget... That you are loved exactly for who you are, every single day."
+  ],
+  "secret": {
+    "message": "YOU FOUND THE SECRET HEART! 💖 Here is a secret message: I love you more than words can say. You're my absolute favorite person, my partner-in-crime, and my home.",
+    "image": ""
+  }
+}
