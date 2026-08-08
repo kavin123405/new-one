@@ -4,11 +4,11 @@
   "description": "Romantic surprise website full stack setup",
   "main": "server.js",
   "scripts": {
-    "install-all": "npm.cmd install && cd client && npm.cmd install",
+    "install-all": "npm install && cd client && npm install",
     "server": "node server.js",
-    "client": "cd client && npm.cmd run dev",
-    "dev": "concurrently \"npm.cmd run server\" \"npm.cmd run client\"",
-    "build": "cd client && npm.cmd run build"
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "cors": "^2.8.5",
